@@ -1,38 +1,145 @@
-.App {
-  text-align: center;
-}
+@import url('https://rsms.me/inter/inter.css');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body {
+  background-color: black;
   color: white;
+  overflow: hidden;
+  font-family: "Inter var", sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+p {
+  font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-size: 54px;
+  font-weight: 400;
+}
+
+.green_text {
+  color: #8BD54A;
+}
+
+#name {
+  margin: -0.5rem 0 3.5rem 0;
+}
+
+.logo img {
+  width: 160px;
+  height: 160px;
+  cursor: pointer;
+}
+
+.logo {
+  position: absolute;
+}
+
+.text_paragraph {
+  line-height: 2rem;
+  width: 38rem;
+  float: right;
+}
+
+.main_page {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 60%;
+  text-align: right;
+  margin-top: 10rem;
+}
+
+.right {
+  width: 65%;
+  margin-left: 3rem;
+}
+
+#photo {
+  width: 660px;
+  height: auto;
+}
+
+.btns {
+  margin-top: 2rem;
+}
+
+.resume_btn {
+  width: 200px;
+  height: 60px;
+  background-color: #d9d9d9;
+  color: black;
+  font-size: 20px;
+  border: 1px solid #8BD54A;
+  text-align: center;
+  border-radius: 50px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.resume_btn:hover {
+  background-color: #bfbfbf;
+}
+
+.resume_btn img {
+  width: 30px;
+  height: 30px;
+  margin-bottom: -5px;
+  margin-left: 5px;
+}
+
+#explore {
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+p #explore .green_text {
+  width: 10px !important;
+}
+
+#explore:hover {
+  text-decoration: underline;
+}
+
+.icons {
+  width: 40px;
+  height: 40px;
+}
+
+.social_media {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: inline-grid;
+  gap: 15px;
+  margin: 0 0 5rem 2rem;
+}
+
+.social_media #insta {
+  width: 35px;
+  height: 35px;
+}
+
+.social_media #linkedin {
+  margin: -5px 0 0 -2px;
+}
+
+.social_media #github {
+  margin: 0 0 0 -2px;
+}
+
+.social_media #gmail {
+  width: 50px;
+  height: 50px;
+  margin: -15px 0 0 -6px;
 }
