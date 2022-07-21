@@ -3,8 +3,12 @@
 body {
   background-color: black;
   color: white;
-  overflow: hidden;
   font-family: "Inter var", sans-serif;
+  overflow: auto;
+}
+
+.main_body, .works_body {
+  position: sticky;
 }
 
 p {
@@ -45,7 +49,7 @@ h1 {
   float: right;
 }
 
-.main_page {
+.main_page, .works_page {
   display: flex;
   justify-content: center;
 }
@@ -57,7 +61,7 @@ h1 {
 .left {
   width: 60%;
   text-align: right;
-  margin-top: 10rem;
+  margin-top: 8rem;
 }
 
 .right {
@@ -142,4 +146,189 @@ p #explore .green_text {
   width: 50px;
   height: 50px;
   margin: -15px 0 0 -6px;
+}
+
+
+#wow {
+  margin-top: 7rem;
+}
+
+.works_page {
+  line-height: 1rem;
+}
+
+.project_div {
+  display: flex;
+  justify-content: center;
+}
+
+.column2 {
+  float: left;
+  margin-top: 4rem;
+}
+
+.left2 {
+  width: 50%;
+  text-align: left;
+  margin-left: 20rem;
+  margin-top: 8rem;
+}
+
+.right2 {
+  width: 50%;
+  margin-right: 10rem;
+}
+
+.project_title {
+  font-size: 44px;
+}
+
+.left2 .project_descr {
+  background-color: #656565;
+  color: white;
+  position: absolute;
+  width: 600px;
+  line-height: 1.5rem;
+}
+
+.left2 .project_descr p {
+  margin: 10px;
+  width: 540px;
+}
+
+.left2 .tags {
+  display: flex;
+  gap: 1.5rem;
+  color: #A8A8A8;
+  margin-top: 8.5rem;
+  margin-left: -1.5rem;
+}
+
+.left2 .project_icons {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 2rem;
+}
+
+#github_works {
+  width: 40px;
+  height: 40px;
+  margin-top: -5px;
+}
+
+#play {
+  width: 35px;
+  height: 35px;
+}
+
+#external {
+  width: 35px;
+  height: 35px;
+}
+
+.right2 img, .right3 img {
+  width: 700px;
+  height: 400px;
+  cursor: pointer;
+}
+
+.left3 {
+  width: 50%;
+  text-align: right;
+  margin-right: 10rem;
+  margin-top: 5rem;
+}
+
+.right3 {
+  width: 50%;
+  margin-left: 20rem;
+}
+
+.left3 .project_descr {
+  background-color: #656565;
+  text-align: right;
+  color: white;
+  right: 10rem;
+  position: absolute;
+  width: 600px;
+  line-height: 1.5rem;
+}
+
+.left3 .project_descr p {
+  margin: 10px;
+  width: 570px;
+}
+
+.left3 .tags {
+  display: flex;
+  gap: 1.5rem;
+  color: #A8A8A8;
+  float: right;
+  margin-top: 10rem;
+  margin-left: -1.5rem;
+}
+
+.left3 .project_icons {
+  display: flex;
+  float: right;
+  margin-top: 13rem;
+  margin-right: -14.2rem;
+  gap: 0.8rem;
+}
+
+#comment_works {
+  cursor: pointer !important;
+}
+
+.Modal {
+  width: 500px;
+  height: 500px;
+  background: #656565;
+  border: 1px solid #ccc;
+  transition: 1.1s ease-out;
+  box-shadow: -2rem 2rem 2rem rgba(black, 1);
+  filter: blur(0);
+  transform: scale(1);
+  opacity: 1;
+}
+
+.Overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  background-color: white;
+}
+
+.closeIcon {
+  width: 45px;
+  height: 45px;
+  margin: 0.2rem;
+  margin-left: 28.6rem;
+  margin-top: -0.2rem;
+  cursor: pointer;
+}
+
+.comment_p {
+  white-space: pre-wrap;
+  font-size: 16px;
+  margin: 0 25px 25px 25px;
+  font-style: italic;
+}
+
+.professor_img {
+  border-radius: 200px;
+  width: 180px;
+  height: 180px;
+  margin: 0 1rem 0 1rem;
+  float: left;
+}
+
+#professor_who {
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0 0 0 4rem;
+  text-align: right;
 }

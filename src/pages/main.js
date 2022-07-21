@@ -22,7 +22,7 @@ const Main = () => {
   }
 
   return (
-    <body>
+    <body className="main_body">
     <div className="main_div">
       <div className="logo">
         <img alt="AMR Logo" src={logo} onClick={handleClickHome}/>
