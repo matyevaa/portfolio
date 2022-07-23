@@ -7,8 +7,16 @@ body {
   overflow: auto;
 }
 
+.main_body {
+  overflow-y: hidden;
+}
+
 .main_body, .works_body {
   position: sticky;
+}
+
+.works_body {
+  margin-bottom: 5rem;
 }
 
 p {
@@ -25,6 +33,10 @@ h1 {
   font-weight: 400;
 }
 
+.BrainhubCarousel__arrows {
+  background-color: black !important;
+}
+
 .green_text {
   color: #8BD54A;
 }
@@ -33,14 +45,27 @@ h1 {
   margin: -0.5rem 0 3.5rem 0;
 }
 
+.logo {
+  position: absolute;
+}
+
 .logo img {
   width: 160px;
   height: 160px;
   cursor: pointer;
 }
 
-.logo {
+#snake {
   position: absolute;
+}
+
+.rotated {
+  -webkit-transition: -webkit-transform 2.0s;
+  transform: rotate(360deg);
+}
+
+#amr {
+  position: relative;
 }
 
 .text_paragraph {
@@ -118,6 +143,10 @@ p #explore .green_text {
 .icons {
   width: 40px;
   height: 40px;
+}
+
+.icons:hover {
+  transform: scale(1.2);
 }
 
 .social_media {
@@ -303,18 +332,18 @@ p #explore .green_text {
 }
 
 .closeIcon {
-  width: 45px;
-  height: 45px;
+  width: 30px;
+  height: 30px;
   margin: 0.2rem;
-  margin-left: 28.6rem;
-  margin-top: -0.2rem;
+  margin-left: 30rem;
+  margin-top: -0.7rem;
   cursor: pointer;
 }
 
 .comment_p {
   white-space: pre-wrap;
   font-size: 16px;
-  margin: 0 25px 25px 25px;
+  margin: 0 25px 40px 25px;
   font-style: italic;
 }
 
@@ -331,4 +360,32 @@ p #explore .green_text {
   font-size: 14px;
   margin: 0 0 0 4rem;
   text-align: right;
+}
+
+#museum_tags {
+  margin-top: 10rem;
+}
+
+.sliders {
+  margin: 5rem 9.5rem 0 20rem;
+}
+
+#sliders_mobile_vr {
+  display: -webkit-inline-box;
+}
+
+.vr_projects {
+  margin-right: 3rem;
+  margin-top: 7rem;
+}
+
+.gif {
+  width: 520px;
+  height: 280px;
+}
+
+.gif_android {
+  width: 290px;
+  height: 500px;
+  margin-right: 2rem;
 }

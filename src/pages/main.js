@@ -1,6 +1,7 @@
 import React from 'react';
 import {useNavigate} from "react-router-dom";
-import logo from '../media/logo.png';
+import amr from '../media/amr_transparent.png';
+import snake from '../media/snake.png';
 import photo from '../media/photo2.jpg';
 import resume from '../media/Resume.pdf';
 import install from '../icons/install.png';
@@ -8,6 +9,7 @@ import github from '../icons/github.png';
 import instagram from '../icons/insta.png';
 import linkedin from '../icons/linkedin.png';
 import gmail from '../icons/gmail.png';
+
 
 const Main = () => {
 
@@ -18,16 +20,22 @@ const Main = () => {
   }
 
   function handleClickHome() {
-    navigate("/");
+    let imageToSpin = document.getElementById('snake');
+    imageToSpin.classList.toggle('rotated')
+    console.log("rotate! main");
+    setTimeout(function() {
+      console.log("navigate!");
+      navigate("/");
+   }, 200);
   }
 
   return (
     <body className="main_body">
     <div className="main_div">
-      <div className="logo">
-        <img alt="AMR Logo" src={logo} onClick={handleClickHome}/>
+      <div className="logo" onClick={handleClickHome}>
+        <img id="snake" alt="AMR Logo Snake" src={snake}/>
+        <img id="amr" alt="AMR Logo" src={amr}/>
       </div>
-
 
       <div className="main_page">
 
