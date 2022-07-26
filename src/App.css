@@ -35,6 +35,7 @@ h1 {
 
 .BrainhubCarousel__arrows {
   background-color: black !important;
+  width: 60px;
 }
 
 .green_text {
@@ -388,4 +389,113 @@ p #explore .green_text {
   width: 290px;
   height: 500px;
   margin-right: 2rem;
+}
+
+.animation .tags, .vr .tags, .react .tags,
+.mobile .tags {
+  display: flex;
+  gap: 2rem;
+  color: #A8A8A8;
+  justify-content: center;
+  list-style: disc;
+}
+
+
+
+#box_and_ball, #mech_arm, #goldberg, #museum,
+#weather, #gd, #nasa, #starwars, #candy, #dinur, #selena,
+#android_netflix, #android_weather {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.popup {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover #box_and_ball, .container:hover #mech_arm, .container:hover #goldberg, .container:hover #museum,
+.container:hover #weather, .container:hover #gd, .container:hover #nasa, .container:hover #starwars,
+.container:hover #candy, .container:hover #dinur, .container:hover #selena,
+.container:hover #android_netflix, .container:hover #android_weather  {
+  opacity: 0.3;
+}
+
+.container img, .container:hover, .popup {
+  cursor: pointer;
+}
+
+.container:hover .popup {
+  opacity: 1;
+}
+
+.popup p {
+  background-color: #62a527;
+  width: 25rem;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  white-space: pre-wrap;
+}
+
+.popup h2 {
+  font-size: 30px;
+  margin-bottom: -5px;
+}
+
+.insidePop img {
+  margin: -9px -5px -5px -18px;
+}
+
+.vr .popup {
+  transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  margin-top: -10rem;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.mobile .popup {
+  transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  margin-top: -28rem;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.mobile .popup p {
+  background-color: #62a527;
+  width: 10rem;
+  margin-left: 4rem;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  white-space: pre-wrap;
+}
+
+.mobile h2 {
+  margin-left: 2rem;
+}
+
+.mobile {
+  display: flex;
+}
+
+.vr .tags {
+  margin-left: -5rem;
+  margin-top: 1.5rem;
 }

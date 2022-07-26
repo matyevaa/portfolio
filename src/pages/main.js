@@ -1,5 +1,6 @@
 import React from 'react';
 import {useNavigate} from "react-router-dom";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import amr from '../media/amr_transparent.png';
 import snake from '../media/snake.png';
 import photo from '../media/photo2.jpg';
@@ -57,7 +58,7 @@ const Main = () => {
         </div>
 
         <div className="column right">
-          <img id="photo" src={photo}/>
+          <LazyLoadImage effect="opacity" id="photo" src={photo}/>
         </div>
 
       </div>

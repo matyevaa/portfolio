@@ -5,6 +5,7 @@ import ImageSliderReact from '../components/carouselReact';
 import ImageSliderVR from '../components/carouselVR';
 import ImageSlider3D from '../components/carousel3D';
 import ImageSliderMobile from '../components/carouselMobile';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import amr from '../media/amr_transparent.png';
 import snake from '../media/snake.png';
 import github from '../icons/github.png';
@@ -108,7 +109,7 @@ const Works = () => {
 
 
           <div className="column2 right3">
-            <img alt="wikifamily website" src={kwangya} onClick={()=> window.open("https://www.youtube.com/watch?v=KjvnKaxpsMU", "_blank")}/>
+            <LazyLoadImage effect="blur" alt="wilderness project" src={kwangya} onClick={()=> window.open("https://www.youtube.com/watch?v=KjvnKaxpsMU", "_blank")}/>
           </div>
 
           <div className="column2 left3">
@@ -147,12 +148,12 @@ const Works = () => {
             </ul>
             <div className="project_icons">
               <a href="https://youtu.be/iDk1VoZPQII" target="_blank"><img className="icons" id="play" alt="play" src={play}/></a>
-              <a href="https://github.com/matyevaa/wikifamily" target="_blank"><img className="icons" id="github_works" alt="github" src={github}/></a>
+              <a href="https://github.com/matyevaa/ue4_virtual_museum" target="_blank"><img className="icons" id="github_works" alt="github" src={github}/></a>
             </div>
           </div>
 
           <div className="column2 right2">
-            <img alt="wikifamily website" src={museum} onClick={()=> window.open("https://github.com/matyevaa/wikifamily", "_blank")}/>
+            <LazyLoadImage effect="blur" alt="museum project" src={museum} onClick={()=> window.open("https://github.com/matyevaa/ue4_virtual_museum", "_blank")}/>
           </div>
         </div>
 
