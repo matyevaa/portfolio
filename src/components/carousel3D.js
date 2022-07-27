@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import Modal from 'react-modal';
 import Carousel, {slidesToShowPlugin, slidesToScrollPlugin}  from '@brainhubeu/react-carousel';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import '@brainhubeu/react-carousel/lib/style.css';
 import github from '../icons/github.png';
 import play from '../icons/play.png';
@@ -33,7 +35,7 @@ const ImageSlider3D = () => {
     ]}
     >
       <div className="container">
-        <img className="gif" id="box_and_ball" alt="box_and_ball_gif" src={box_and_ball}/>
+        <LazyLoadImage effect="blur" className="gif" id="box_and_ball" alt="box_and_ball_gif" src={box_and_ball}/>
         <div className="popup">
           <h2>Ball & Box</h2>
           <p>I've used Maya to animate the interaction of 2 rigged characters to tell a story.
@@ -47,7 +49,7 @@ const ImageSlider3D = () => {
         </div>
       </div>
       <div className="container">
-        <img className="gif" id="mech_arm" alt="mech_arm_gif" src={mech_arm}/>
+        <LazyLoadImage effect="blur" className="gif" id="mech_arm" alt="mech_arm_gif" src={mech_arm}/>
         <div className="popup">
           <h2>Mech Arm</h2>
           <p>I've used Maya to create my own animated story with use of Lesseter's principles of animation
@@ -61,7 +63,7 @@ const ImageSlider3D = () => {
         </div>
       </div>
       <div className="container">
-        <img className="gif" id="goldberg" alt="goldberg_gif" src={goldberg}/>
+        <LazyLoadImage effect="blur" className="gif" id="goldberg" alt="goldberg_gif" src={goldberg}/>
         <div className="popup">
           <h2>Rube Goldberg Factory</h2>
           <p>I've used Maya to animate the character, apply cloth and lighting start in engine, and connect cloth to rod.

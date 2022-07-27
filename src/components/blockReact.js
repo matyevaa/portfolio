@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Modal from 'react-modal';
 import Carousel, {slidesToShowPlugin, slidesToScrollPlugin}  from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import github from '../icons/github.png';
 import weather from '../media/weather.gif';
@@ -16,7 +17,7 @@ const ImageReact = () => {
   return (
     <div className="react">
           <div className="container">
-            <LazyLoadImage  effect="opacity" className="gif" id="weather" alt="weather website" src={weather}/>
+            <LazyLoadImage  effect="blur" className="gif" id="weather" alt="weather website" src={weather}/>
             <div className="popup" id="weather_popup">
               <h2>Weather Forecast</h2>
               <p>I've used the OpenWeather API and Emotion styling to create a simple weather app that can disgithub a daily forecast for a city specified by the user.</p>
@@ -29,7 +30,7 @@ const ImageReact = () => {
             </div>
           </div>
           <div className="container">
-            <LazyLoadImage  effect="opacity" className="gif" id="nasa" alt="nasa website" src={nasa}/>
+            <LazyLoadImage  effect="blur" className="gif" id="nasa" alt="nasa website" src={nasa}/>
             <div className="popup" id="nasa_popup">
               <h2>NASA Mars Rovers Photos</h2>
               <p>The project introduces the user to the three of NASA's rovers and shows the photos taken by them.
@@ -42,7 +43,7 @@ const ImageReact = () => {
             </div>
           </div>
           <div className="container">
-            <LazyLoadImage  effect="opacity" className="gif" id="starwars" alt="starwars website" src={starwars}/>
+            <LazyLoadImage  effect="blur" className="gif" id="starwars" alt="starwars website" src={starwars}/>
             <div className="popup" id="starwars_popup">
               <h2>Star Wars Database</h2>
               <p>I've used React Router to create a moderately complex, multi-page application based on simulated application data.</p>
@@ -55,7 +56,7 @@ const ImageReact = () => {
             </div>
           </div>
           <div className="container">
-            <LazyLoadImage  effect="opacity" className="gif" id="candy" alt="candy website" src={candy}/>
+            <LazyLoadImage  effect="blur" className="gif" id="candy" alt="candy website" src={candy}/>
             <div className="popup" id="candy_popup">
               <h2>Candy Store</h2>
               <p>I've used Redux to maintain the global state of an application and implemented a basic shopping cart application for the "Penny Candy Store", an online store that sells penny candy.</p>
@@ -68,7 +69,7 @@ const ImageReact = () => {
             </div>
           </div>
           <div className="container">
-            <LazyLoadImage  effect="opacity" className="gif" id="gd" alt="gallery website" src={gd}/>
+            <LazyLoadImage  effect="blur" className="gif" id="gd" alt="gallery website" src={gd}/>
             <div className="popup" id="photo_popup">
               <h2>Photo Gallery</h2>
               <p>A photo gallery app, where the user can click a button to open a dialog, enter information about photos into that dialog, and see those photos appear in the application when they click the dialog’s "accept" button.</p>
@@ -79,7 +80,7 @@ const ImageReact = () => {
             </div>
           </div>
           <div className="container">
-            <LazyLoadImage  effect="opacity" className="gif" id="selena" alt="selena website" src={selena}/>
+            <LazyLoadImage  effect="blur" className="gif" id="selena" alt="selena website" src={selena}/>
             <div className="popup" id="selena_popup">
               <h2>CSS Animations</h2>
               <p>A static animated website with several animation techniques applied.</p>
@@ -92,7 +93,7 @@ const ImageReact = () => {
             </div>
           </div>
           <div className="container">
-            <LazyLoadImage  effect="opacity" className="gif" id="dinur" alt="dinur website" src={dinur}/>
+            <LazyLoadImage  effect="blur" className="gif" id="dinur" alt="dinur website" src={dinur}/>
             <div className="popup" id="dinur_popup">
               <h2>Kyrgyz Honey</h2>
               <p>A static website dedicated to Kyrgyz honey that was shown at Dubai Honey Presentation by Dinur's Honey Company in 2020.</p>

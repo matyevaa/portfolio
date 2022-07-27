@@ -9,6 +9,7 @@ import Image3D from '../components/block3D';
 import ImageSliderMobile from '../components/carouselMobile';
 import useMediaQuery from "../hooks/useMediaQuery";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import amr from '../media/amr_transparent.png';
 import snake from '../media/snake.png';
 import github from '../icons/github.png';
@@ -102,7 +103,7 @@ const Works = () => {
           </div>
 
           <div className="column2 right2">
-            <img id="wiki_img" alt="wikifamily website" src={wiki} onClick={()=> window.open("https://github.com/matyevaa/wikifamily", "_blank")}/>
+            <LazyLoadImage effect="blur" id="wiki_img" alt="wikifamily website" src={wiki} onClick={()=> window.open("https://github.com/matyevaa/wikifamily", "_blank")}/>
           </div>
         </div>
 
@@ -111,7 +112,7 @@ const Works = () => {
 
 
           <div className="column2 right3">
-            <LazyLoadImage id="kwangya_img" effect="blur" alt="wilderness project" src={kwangya} onClick={()=> window.open("https://www.youtube.com/watch?v=KjvnKaxpsMU", "_blank")}/>
+            <LazyLoadImage effect="blur" id="kwangya_img" alt="wilderness project" src={kwangya} onClick={()=> window.open("https://www.youtube.com/watch?v=KjvnKaxpsMU", "_blank")}/>
           </div>
 
           <div className="column2 left3">

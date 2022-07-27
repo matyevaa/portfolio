@@ -153,7 +153,7 @@ p #explore .green_text {
 }
 
 .social_media {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   display: inline-grid;
@@ -748,31 +748,31 @@ p #explore .green_text {
   }
 
   #weather_popup.popup {
-    top: 29.2%;
+    top: 30.4%;
   }
 
   #nasa_popup.popup {
-    top: 34.5%;
+    top: 35.2%;
   }
 
   #starwars_popup.popup {
-    top: 39.5%;
+    top: 40.1%;
   }
 
   #candy_popup.popup {
-    top: 44%;
+    top: 45%;
   }
 
   #photo_popup.popup {
-    top: 48.8%;
+    top: 50%;
   }
 
   #selena_popup.popup {
-    top: 54%;
+    top: 55%;
   }
 
   #dinur_popup.popup {
-    top: 58.6%;
+    top: 59.8%;
   }
 
   #popup_ball.popup {
@@ -803,7 +803,7 @@ p #explore .green_text {
 
 
 
-@media screen and (max-width: 482px) {
+@media screen and (max-width: 508px) {
   #photo {
     width: 60vh;
     margin-left: -10vh;

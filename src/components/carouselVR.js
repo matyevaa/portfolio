@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import Modal from 'react-modal';
 import Carousel, {slidesToShowPlugin, slidesToScrollPlugin}  from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 import github from '../icons/github.png';
 import play from '../icons/play.png';
 import museum from '../media/museum.gif';
@@ -10,7 +12,7 @@ const ImageSliderVR = () => {
   return (
     <div className="vr">
       <div className="container">
-        <img className="gif" id="museum" alt="museum gif" src={museum}/>
+        <LazyLoadImage  effect="blur" className="gif" id="museum" alt="museum gif" src={museum}/>
         <div className="popup">
           <h2>Virtual Reality Gallery</h2>
           <p>A video tour presenting my gazebo, gallery building,  special lighting, and sculpture and paintings props
