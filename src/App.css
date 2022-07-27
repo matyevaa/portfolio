@@ -855,7 +855,7 @@ p #explore .green_text {
   }
 
   #selena_popup.popup {
-    top: 55.6%;
+    top: 55.8%;
   }
 
   #dinur_popup.popup {
@@ -863,7 +863,7 @@ p #explore .green_text {
   }
 
   .vr .popup {
-    margin-top: -18rem;
+    margin-top: -13rem;
     margin-left: auto;
     display: grid;
     justify-content: center;
