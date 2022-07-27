@@ -462,7 +462,7 @@ p #explore .green_text {
   opacity: 0;
   position: relative;
   margin-top: -10rem;
-  left: 55%;
+  left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
@@ -582,7 +582,7 @@ p #explore .green_text {
 
   .works_page#featured_2 .project_descr,
   .works_page#featured_3 .project_descr {
-    margin-bottom: -10vh;
+    margin-bottom: -20vh;
   }
 
   .works_page#featured_2 .project_descr p {
@@ -596,7 +596,6 @@ p #explore .green_text {
   .works_page#featured_2 .column2 {
     margin-top: auto;
   }
-
 
   .right2 img, .right3 img {
     width: 200%;
@@ -670,12 +669,24 @@ p #explore .green_text {
 
   .sliders#sliders_mobile_vr {
     display: block;
-    margin-left: 6%;
+    margin-left: 14%;
     margin-bottom: 11rem;
   }
 
   .sliders#threeD .green_text, .sliders#web_dev .green_text {
-    margin-left: 6%;
+    margin-left: 14%;
+  }
+
+  .vr .popup {
+    margin-left: auto;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .vr .gif {
+    width: 100%;
+    height: auto;
   }
 
 
@@ -685,7 +696,7 @@ p #explore .green_text {
 
 @media screen and (max-width: 688px) {
 
-  #featured_1 img, #featured_2 img, #featured_3 img {
+  #featured_1 #wiki_img, #featured_2 #kwangya_img, #featured_3 #museum_img {
     display: none;
   }
 
@@ -694,7 +705,7 @@ p #explore .green_text {
   }
 
   .works_page#featured_2 {
-    margin-bottom: 78rem;
+    margin-bottom: 80rem;
   }
 
   .works_page#featured_3 {
@@ -707,8 +718,12 @@ p #explore .green_text {
   }
 
   #wow {
-    margin-top: 30vh;
+    margin-top: 38vh;
     margin-bottom: -12vh;
+  }
+
+  .main_page .text_paragraph {
+    margin-top: 5vh;
   }
 
   .mobile {
@@ -718,5 +733,154 @@ p #explore .green_text {
   .mobile .container:first-child {
     margin-bottom: 10rem;
   }
+
+  .react, .mobile, .vr, .animation {
+    justify-content: center;
+    display: grid;
+  }
+
+  .react .gif, .animation .gif {
+    margin-bottom: 5rem;
+  }
+
+  .react #dinur {
+    margin-bottom: 0;
+  }
+
+  #weather_popup.popup {
+    top: 29.2%;
+  }
+
+  #nasa_popup.popup {
+    top: 34.5%;
+  }
+
+  #starwars_popup.popup {
+    top: 39.5%;
+  }
+
+  #candy_popup.popup {
+    top: 44%;
+  }
+
+  #photo_popup.popup {
+    top: 48.8%;
+  }
+
+  #selena_popup.popup {
+    top: 54%;
+  }
+
+  #dinur_popup.popup {
+    top: 58.6%;
+  }
+
+  #popup_ball.popup {
+    top: 87.3%;
+  }
+
+  #popup_arm.popup {
+    top: 92%;
+  }
+
+  #popup_goldberg.popup {
+    top: 97.1%;
+  }
+
+  .vr .popup {
+    margin-top: -17rem;
+    margin-left: auto;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .vr {
+    margin-bottom: 8rem;
+  }
+
+}
+
+
+
+@media screen and (max-width: 482px) {
+  #photo {
+    width: 60vh;
+    margin-left: -10vh;
+  }
+
+  .works_page#featured_2 {
+    margin-bottom: 85rem;
+  }
+
+  .works_page#featured_3 {
+    margin-bottom: 45rem;
+  }
+
+  .Modal {
+    width: 300px;
+    height: 680px;
+  }
+
+  .closeIcon {
+    margin-left: 17.7rem;
+  }
+
+  .react #dinur {
+    margin-bottom: 0;
+  }
+
+  .popup p {
+    width: 40vh;
+  }
+
+  #weather_popup.popup {
+    top: 32%;
+  }
+
+  #nasa_popup.popup {
+    top: 36.5%;
+  }
+
+  #starwars_popup.popup {
+    top: 41.5%;
+  }
+
+  #candy_popup.popup {
+    top: 46.2%;
+  }
+
+  #photo_popup.popup {
+    top: 51%;
+  }
+
+  #selena_popup.popup {
+    top: 55.6%;
+  }
+
+  #dinur_popup.popup {
+    top: 60.6%;
+  }
+
+  .vr .popup {
+    margin-top: -18rem;
+    margin-left: auto;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #popup_ball.popup {
+    top: 87.6%;
+  }
+
+  #popup_arm.popup {
+    top: 92%;
+  }
+
+  #popup_goldberg.popup {
+    top: 97.1%;
+  }
+
 
 }

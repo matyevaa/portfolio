@@ -2,9 +2,12 @@ import React, {useState} from 'react';
 import Modal from 'react-modal';
 import {useNavigate} from "react-router-dom";
 import ImageSliderReact from '../components/carouselReact';
+import ImageReact from '../components/blockReact';
 import ImageSliderVR from '../components/carouselVR';
 import ImageSlider3D from '../components/carousel3D';
+import Image3D from '../components/block3D';
 import ImageSliderMobile from '../components/carouselMobile';
+import useMediaQuery from "../hooks/useMediaQuery";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import amr from '../media/amr_transparent.png';
 import snake from '../media/snake.png';
@@ -29,7 +32,7 @@ const Works = () => {
   const [showModal, setShowModal] = useState(false);
   const navigate = useNavigate();
 
-  const react_projects = [weather, starwars, candy];
+  const isMobile = useMediaQuery('(max-width: 688px)');
 
   const todd_comment = " ''You set the stage with your initial text for everything that follows.\n\nThe wind speed (visible in the tres) in the otherwise dead city provides an effective contrast. Your use of particles enhances the environments.\n\nSome of your camera work is really impressive, particularly the movement down through the subway at around 2 mins. Your use of 'alien color' (purples and greens) is striking. And the way you handled the eyeball through different cuts and angles was very engaging.\n\nThis is outstanding work. You have created a project that you can proudly show to anyone, including potential employers. Excellent work!'' "
   const professor_k = "Todd Kesterson, New Media Communication Instructor at OSU"
@@ -99,7 +102,7 @@ const Works = () => {
           </div>
 
           <div className="column2 right2">
-            <img alt="wikifamily website" src={wiki} onClick={()=> window.open("https://github.com/matyevaa/wikifamily", "_blank")}/>
+            <img id="wiki_img" alt="wikifamily website" src={wiki} onClick={()=> window.open("https://github.com/matyevaa/wikifamily", "_blank")}/>
           </div>
         </div>
 
@@ -108,7 +111,7 @@ const Works = () => {
 
 
           <div className="column2 right3">
-            <LazyLoadImage effect="blur" alt="wilderness project" src={kwangya} onClick={()=> window.open("https://www.youtube.com/watch?v=KjvnKaxpsMU", "_blank")}/>
+            <LazyLoadImage id="kwangya_img" effect="blur" alt="wilderness project" src={kwangya} onClick={()=> window.open("https://www.youtube.com/watch?v=KjvnKaxpsMU", "_blank")}/>
           </div>
 
           <div className="column2 left3">
@@ -152,7 +155,7 @@ const Works = () => {
           </div>
 
           <div className="column2 right2">
-            <LazyLoadImage effect="blur" alt="museum project" src={museum} onClick={()=> window.open("https://github.com/matyevaa/ue4_virtual_museum", "_blank")}/>
+            <LazyLoadImage id="museum_img" effect="blur" alt="museum project" src={museum} onClick={()=> window.open("https://github.com/matyevaa/ue4_virtual_museum", "_blank")}/>
           </div>
         </div>
 
@@ -160,7 +163,7 @@ const Works = () => {
 
         <div className="sliders" id="web_dev">
           <p className="green_text">web development projects</p>
-          <ImageSliderReact/>
+          { isMobile ? <ImageReact/> : <ImageSliderReact/>}
         </div>
 
         <div className="sliders" id="sliders_mobile_vr">
@@ -176,7 +179,7 @@ const Works = () => {
 
         <div className="sliders" id="threeD">
           <p className="green_text">3D animation projects</p>
-          <ImageSlider3D/>
+          { isMobile ? <Image3D/> : <ImageSlider3D/> }
         </div>
 
       </div>
