@@ -160,7 +160,7 @@ const Works = () => {
 
         </div>
 
-        <div className="sliders">
+        <div className="sliders" id="web_dev">
           <p className="green_text">web development projects</p>
           <ImageSliderReact/>
         </div>
@@ -176,7 +176,7 @@ const Works = () => {
           </div>
         </div>
 
-        <div className="sliders">
+        <div className="sliders" id="threeD">
           <p className="green_text">3D animation projects</p>
           <ImageSlider3D/>
         </div>

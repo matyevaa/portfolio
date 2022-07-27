@@ -503,6 +503,21 @@ p #explore .green_text {
 }
 
 
+@media only screen and (max-width: 1530px) and (min-width: 1024px) {
+
+  .sliders#sliders_mobile_vr {
+    display: block;
+    margin-left: 25%;
+    margin-bottom: 11rem;
+  }
+
+  .sliders#sliders_mobile_vr .green_text {
+    margin-left: -6%;
+  }
+
+}
+
+
 @media only screen and (max-width: 1024px) {
 
   body {
@@ -525,12 +540,13 @@ p #explore .green_text {
 
   .works_page {
     line-height: normal;
-    margin-bottom: 22vh;
+    margin-bottom: 17vh;
+    margin-top: -10vh;
+    text-align: center;
   }
 
   #wow {
     margin-top: 25vh;
-    margin-left: 20%;
     margin-bottom: -10vh;
   }
 
@@ -608,6 +624,10 @@ p #explore .green_text {
     position: absolute;
   }
 
+  .works_page#featured_2 {
+    margin-bottom: 48rem;
+  }
+
   .column2 .left3 h1 {
     width: 130%;
     margin-left: 13%;
@@ -622,10 +642,6 @@ p #explore .green_text {
     display: contents;
   }
 
-  #featured_2 {
-    margin-top: -15vh;
-  }
-
   .works_page#featured_3 .left2 {
     width: 70%;
     margin-left: 12%;
@@ -637,7 +653,8 @@ p #explore .green_text {
   }
 
   .works_page#featured_3 {
-    margin-top: 60vh;
+    margin-top: auto;
+    margin-bottom: 10rem;
   }
 
   .works_page#featured_3 .left2, .works_page#featured_3 .column2 {
@@ -645,22 +662,44 @@ p #explore .green_text {
   }
 
 
+  /* sliders */
+
+  .sliders {
+    margin: auto;
+    margin-top: 4rem;
+  }
+
+  .sliders#sliders_mobile_vr {
+    display: block;
+    margin-left: 6%;
+    margin-bottom: 11rem;
+  }
+
+  .sliders#threeD .green_text, .sliders#web_dev .green_text {
+    margin-left: 6%;
+  }
+
+
+
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 688px) {
 
   #featured_1 img, #featured_2 img, #featured_3 img {
     display: none;
   }
 
-  #featured_1 {
-    margin-bottom: 55vh
+  .works_page#featured_1 {
+    margin-bottom: 40rem;
   }
 
-  #featured_2 {
-    margin-bottom: 97vh;
-    margin-top: auto;
+  .works_page#featured_2 {
+    margin-bottom: 78rem;
+  }
+
+  .works_page#featured_3 {
+    margin-bottom: 35rem;
   }
 
   #photo {
@@ -671,6 +710,14 @@ p #explore .green_text {
   #wow {
     margin-top: 25vh;
     margin-bottom: -12vh;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .mobile .container:first-child {
+    margin-bottom: 10rem;
   }
 
 }
