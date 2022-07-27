@@ -17,9 +17,9 @@ function App() {
   return (
     <Router>
         <Routes>
-          <Route path="/" element={<Main/>} />
-          <Route exact path="/works" element={<Works/>} />
-          <Route path="/404" element={<ErrorPage/>} />
+          <Route path="/portfolio" element={<Main/>} />
+          <Route path="/works" element={<Works/>} />
+          <Route exact path="/404" element={<ErrorPage/>} />
           <Route path="*" element={<Navigate to="/404" />}/>
         </Routes>
       </Router>
