@@ -1,6 +1,6 @@
 # Welcome to my portfolio!
 
-Access the served website here:
+Access the served website here: https://matyevaa.github.io/portfolio/
 
 ## Check my portfolio to learn about
 
