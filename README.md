@@ -10,9 +10,10 @@ Access the served website here:
 ## Cool technical features I've implemented here
 
 * click on the logo to return to the main page & watch a fun animation
-* swipe or use arrows to navigate through the slide components and explore my projects
+* swipe or use arrows to navigate through the slide components and explore my projects (desktop and tablets)
+* see the blur lazy load of images and gifs while you're scrolling
 * hover on any of my projects to see a pop up module with more detailed information about a specific project 
-* use your phone or tablet to see the responsiveness of my portfolio
+* use your phone to see the responsiveness of my portfolio
 
 ## Check out the prototype of my portfolio
 
