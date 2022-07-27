@@ -14,4 +14,10 @@ Access the served website here:
 * hover on any of my projects to see a pop up module with more detailed information about a specific project 
 * use your phone or tablet to see the responsiveness of my portfolio
 
+## Check out the prototype of my portfolio
+
+![main](https://user-images.githubusercontent.com/59642740/181150396-993d26be-2c35-4bc1-aba4-0c02eabc7520.png)
+![works](https://user-images.githubusercontent.com/59642740/181150414-cce5d230-7e41-4a11-9711-4b953ed9fb4e.png)
+![other works](https://user-images.githubusercontent.com/59642740/181150426-d46927cd-50fc-4527-bf6f-20c3710bf080.png)
+
 ## Enjoy & contact me if necessary~
