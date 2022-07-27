@@ -11,7 +11,7 @@ Access the served website here: https://matyevaa.github.io/portfolio/
 
 * click on the logo to return to the main page & watch a fun animation
 * swipe or use arrows to navigate through the slide components and explore my projects (desktop and tablets)
-* see the blur lazy load of images and gifs while you're scrolling
+* notice the blur lazy load of images and gifs while you're scrolling
 * hover on any of my projects to see a pop up module with more detailed information about a specific project 
 * use your phone to see the responsiveness of my portfolio
 
