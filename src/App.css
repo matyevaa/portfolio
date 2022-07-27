@@ -703,8 +703,8 @@ p #explore .green_text {
   }
 
   #photo {
-    width: 400px;
-    margin-left: -12%;
+    width: 60vh;
+    margin-left: auto;
   }
 
   #wow {
