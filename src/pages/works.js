@@ -78,6 +78,7 @@ const Works = () => {
           <span className="comment_p" id="professor_who">{professor_k}</span>
         </Modal>
 
+        <div className="all_works">
         <div className="works_page" id="featured_1">
           <div className="column2 left2">
             <p className="green_text">featured project</p>
@@ -155,6 +156,8 @@ const Works = () => {
           <div className="column2 right2">
             <LazyLoadImage effect="blur" alt="museum project" src={museum} onClick={()=> window.open("https://github.com/matyevaa/ue4_virtual_museum", "_blank")}/>
           </div>
+        </div>
+
         </div>
 
         <div className="sliders">
