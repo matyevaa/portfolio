@@ -39,7 +39,6 @@ const Main = () => {
       </div>
 
       <div className="main_page">
-
         <div className="column left">
           <div className="text_paragraph">
             <p className="green_text">hi, my name is</p>
