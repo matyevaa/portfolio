@@ -21,3 +21,5 @@ Access the served website here:
 ![other works](https://user-images.githubusercontent.com/59642740/181150426-d46927cd-50fc-4527-bf6f-20c3710bf080.png)
 
 ## Enjoy & contact me if necessary~
+
+Find all the contact information on the website or DM me on LinkedIn: https://www.linkedin.com/in/amatyeva/
