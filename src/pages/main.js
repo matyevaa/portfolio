@@ -17,16 +17,14 @@ const Main = () => {
   const navigate = useNavigate();
 
   function handleClick() {
-    navigate("/works");
+    navigate("/portfolio/works");
   }
 
   function handleClickHome() {
     let imageToSpin = document.getElementById('snake');
     imageToSpin.classList.toggle('rotated')
-    console.log("rotate! main");
     setTimeout(function() {
-      console.log("navigate!");
-      navigate("/");
+      navigate("/portfolio");
    }, 200);
   }
 

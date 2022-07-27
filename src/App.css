@@ -517,7 +517,6 @@ p #explore .green_text {
 
 }
 
-
 @media only screen and (max-width: 1024px) {
 
   body {
@@ -546,7 +545,7 @@ p #explore .green_text {
   }
 
   #wow {
-    margin-top: 25vh;
+    margin-top: 30vh;
     margin-bottom: -10vh;
   }
 
@@ -708,7 +707,7 @@ p #explore .green_text {
   }
 
   #wow {
-    margin-top: 25vh;
+    margin-top: 30vh;
     margin-bottom: -12vh;
   }
 

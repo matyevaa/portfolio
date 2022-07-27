@@ -37,10 +37,8 @@ const Works = () => {
   function handleClickHome() {
     let imageToSpin = document.getElementById('snake');
     imageToSpin.classList.toggle('rotated')
-    console.log("rotate! works");
     setTimeout(function() {
-      console.log("navigate!");
-      navigate("/");
+      navigate("/portfolio");
    }, 2000);
   }
 
