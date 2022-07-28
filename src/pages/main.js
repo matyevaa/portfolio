@@ -40,7 +40,7 @@ const Main = () => {
         <div className="column left">
           <div className="text_paragraph">
             <p className="green_text">hi, my name is</p>
-            <h1 id="name">Alima M. Roman</h1>
+            <h1 id="name">Alima R. Matyeva</h1>
             <p>and i am a computer scientist (legit).</p>
             <p>my focus area is web and VR development.</p>
             <p>i am from Kyrgyzstan but work and live in Seattle, WA.</p>
