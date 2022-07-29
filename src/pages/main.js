@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {useNavigate} from "react-router-dom";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import amr from '../media/amr_transparent.png';
@@ -15,6 +15,10 @@ import gmail from '../icons/gmail.png';
 const Main = () => {
 
   const navigate = useNavigate();
+
+  useEffect(() => {
+    document.title = "Alima Matyeva";
+  })
 
   function handleClick() {
     navigate("/portfolio/works");
