@@ -805,7 +805,7 @@ p #explore .green_text {
 
 @media screen and (max-width: 508px) {
   #photo {
-    width: 60vh;
+    width: 36rem;
     margin-left: -10vh;
   }
 
