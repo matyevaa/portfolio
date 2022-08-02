@@ -27,12 +27,11 @@ const ImageSliderMobile = () => {
       <div className="container">
         <LazyLoadImage  effect="blur" id="android_netflix" className="gif_android" alt="android_netflix_gif" src={android_netflix}/>
         <div className="popup">
-          <h2>Weather Forecast</h2>
-          <p>I've used the OpenWeather API and Emotion styling to create a simple weather app that can disgithub a daily forecast for a city specified by the user.</p>
+          <h2>Movie Time</h2>
+          <p>An app for Android written in Kotlin for tracking movies that the user has watched and for keeping tracking of upcoming releases.</p>
           <ul className="tags">
-            <li>React</li>
-            <li>Emotion</li>
-            <li>API</li>
+            <li>Kotlin</li>
+            <li>Android</li>
             <a className="insidePop" href="https://github.com/matyevaa/weather-app" target="_blank"><img className="icons" id="github" alt="github" src={github}/></a>
           </ul>
         </div>
