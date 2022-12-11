@@ -15,10 +15,10 @@ const ImageSliderMobile = () => {
         <LazyLoadImage  effect="blur" id="android_weather" className="gif_android" alt="android_weather_gif" src={android_weather}/>
         <div className="popup">
           <h2>Weather Forecast</h2>
-          <p>I've used the OpenWeather API and Emotion styling to create a simple weather app that can disgithub a daily forecast for a city specified by the user.</p>
+          <p>I've used the OpenWeather API to create a weather app for Android written in Kotlin.</p>
           <ul className="tags">
-            <li>React</li>
-            <li>Emotion</li>
+            <li>Kotlin</li>
+            <li>Android</li>
             <li>API</li>
             <a className="insidePop" href="https://github.com/matyevaa/weather-app" target="_blank"><img className="icons" id="github" alt="github" src={github}/></a>
           </ul>
